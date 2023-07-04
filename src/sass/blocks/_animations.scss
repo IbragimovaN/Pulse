@@ -1,0 +1,29 @@
+@keyframes heartBeat {
+    from {
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.4);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+@keyframes shoe {
+    0% {
+        transform:rotate(-30deg);
+    }
+    25%{
+    transform:rotate(-45deg);
+    }
+    50%{
+    transform:rotate(-30deg);
+    }
+    75%{
+        transform:rotate(-10deg);
+    }
+    100%{
+        transform:rotate(-30deg);
+    }
+}
+

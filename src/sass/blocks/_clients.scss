@@ -1,0 +1,39 @@
+.clients{
+    
+    &__wrapper{
+        margin: 0 126px 48px 99px;
+    }
+    &__card{
+        margin-top: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+       
+    }
+    &__avatar{
+        margin-right: 60px;
+        img{
+            width: 169px;
+            height: 169px;
+        }
+    }
+    &__name{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+    }
+    &__info{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        color:rgba(100, 100, 100, 1);
+    }
+    &__review{
+        
+        margin-top: 10px;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+}
