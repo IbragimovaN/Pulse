@@ -19,7 +19,13 @@
     "sass": "^1.62.1"
   },
   "browserslist": [
-    "defaults and supports es6-module",
-    "maintained node versions"
-  ]
+    "last 1 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ],
+  "dependencies": {
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0"
+  }
 }
